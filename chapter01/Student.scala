@@ -16,8 +16,10 @@ object Student{
   def main(args: Array[String]): Unit = {
     val alice = new Student("alice", 23)
     val bob = new Student("bob", 24)
+    val kevin = new Student("Kevin", 25)
 
     alice.printInfo()
     bob.printInfo()
+    kevin.printInfo()
   }
 }
